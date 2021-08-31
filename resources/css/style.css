@@ -1,0 +1,98 @@
+* {
+    margin: 0 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    align-content: stretch;
+}
+
+@media only screen and (max-width: 375px) {
+    .flex-container {
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+}
+
+.flex-item {
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+.flex-item1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.flex-item1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.flex-item2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.flex-item2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.flex-item3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.flex-item3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    padding-top: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
+}
+
+a {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 1em;
+}
+
+.flex-item1 a:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.flex-item2 a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.flex-item3 a:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
