@@ -25,11 +25,7 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot".
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
@@ -43,9 +39,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The goals of this project were:
+ 1. To use good quality semntic HTML to build the website.
+
+ 2. To use flexbox to create a three column structure that would grow and shrink appropriately when resizing the browser.
+
+ 3. To have the columns viewed below each other on mobile (hint: use flex-wrap and maybe min-width set to device width to see if I can achieve this).
 
 ## Author
 
-- GitHub - [Serraphus](https://www.your-site.com)
+- GitHub - [Serraphus](https://github.com/Serraphus/three-column-preview)
 - Frontend Mentor - [@Serraphus](https://www.frontendmentor.io/profile/Serraphus)
